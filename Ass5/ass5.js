@@ -18,7 +18,7 @@ const TodoApp = () => {
   };
 
   const handleToggleTodo = (index) => {
-        newTodos[index].completed = !newTodos[index].completed;
+    newTodos[index].completed = !newTodos[index].completed;
     setTodos(newTodos);
   };
 
