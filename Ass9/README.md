@@ -1,3 +1,19 @@
 ﻿# Assignment 9
 
-Write a Java program to implement a banking system. Create a base class Account and subclasses SavingsAccount and CurrentAccount. Implement methods for deposit and withdrawal (including overdraft limits for current accounts) and display account details using polymorphism.
+Design a banking system in Java with:
+
+A base class Account containing private fields: accountNumber, ownerName, balance
+Provide getters/setters and at least two constructors (use constructor chaining)
+Implement deposit() and withdraw() with proper validation
+Add a display() method
+
+Extend it with:
+SavingsAccount (add interestRate, override display() and show interest)
+CurrentAccount (add overdraftLimit, restrict withdrawals accordingly)
+
+Your implementation should clearly show:
+Proper encapsulation (no direct field access)
+Use of constructor overloading and chaining (this(...))
+Inheritance and method overriding (use @Override and super)
+Polymorphism by storing objects in an Account reference list and calling display()
+Basic validation/debugging (e.g., assert or exception for invalid operations)
